@@ -9,7 +9,7 @@
   <body>
     <header class="header">
       <div class="container">
-        <div class="navi">
+        <nav id="navbar">
           <div class="logo">
             <img src="Images/logo.png" />
           </div>
@@ -17,15 +17,16 @@
             <ul>
               <li>
                 <a href="#">Home</a>
-                <a href="#">Contuct US</a>
+                <a href="#blog-1">Blog 1</a>
                 <a href="#">Privace</a>
-                <a href="#">Blog</a>
-                <a href="#">Tutorial</a>
+                <a href="#blog-4">Blog4</a>
+                <a href="#footer">Footer</a>
               </li>
             </ul>
           </nav>
-        </div>
+        </nav>
       </div>
+
       <div class="banner">
         <h1>Our Proccess</h1>
         <p>Ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -37,7 +38,7 @@
     <section class="section1">
       <div class="container">
         <div class="parent-section">
-          <div class="sec1-content">
+          <div id="blog-1" class="sec1-content">
             <img src="Images/1.png" />
             <h2>With Effeciency to unlock more opportunity</h2>
             <p>
@@ -114,7 +115,7 @@
 
     <section class="section1">
       <div class="container">
-        <div class="parent-section">
+        <div id="blog-4" class="parent-section">
           <div class="sec4-image">
             <img class="image1" src="Images/process_1.png" />
           </div>
@@ -165,7 +166,7 @@
 
     <footer class="footer">
       <div class="container">
-        <div class="footer-item">
+        <div id="footer" class="footer-item">
           <div class="footer-item1">
             <img src="Images/logo2.png" alt="" />
             <div>
@@ -213,5 +214,7 @@
         </div>
       </div>
     </footer>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script src="JS/app.js"></script>
   </body>
 </html>
